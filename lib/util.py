@@ -225,4 +225,4 @@ def script_to_pubkey(key):
     return b'\x21' + key + b'\xac'
 
 def getCharityScript():
-    return b'\x76\xa9\x14' + binascii.unhexlify("1864597a1e6f7e83555b4ec5913d455f4a5002a5") + b'\x88\xac';
+    return b'\x76\xa9\x14' + binascii.unhexlify("1cec44c9f9b769ae08ebf9d694c7611a16edf615") + b'\x88\xac';

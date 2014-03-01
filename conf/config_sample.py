@@ -196,6 +196,6 @@ MEMCACHE_PORT = 11211 # Port
 MEMCACHE_TIMEOUT = 900 # Key timeout
 MEMCACHE_PREFIX = "stratum_" # Prefix for keys
 
-#### Extra CancerCureCoin Settings ####
-EXTRA_DONATION = 0 # How many additonal units of CCC should be donated to the charity address.
+#### Extra EMC2 Settings ####
+EXTRA_DONATION = 0 # How many additonal units of EMC2 should be donated to the charity address.
 

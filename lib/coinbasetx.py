@@ -35,7 +35,7 @@ class CoinbaseTransactionPOW(halfnode.CTransaction):
                 
         tx_in.scriptSig = tx_in._scriptSig_template[0] + self.extranonce_placeholder + tx_in._scriptSig_template[1]
     
-        # Cancercoin Charity Address Requirement
+        # EMC2 Charity Address Requirement
 		
         charity_value += int(settings.EXTRA_DONATION)
         if charity_value > value:
